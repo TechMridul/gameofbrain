@@ -1,0 +1,45 @@
+table tr {
+	display: flex;
+}
+
+table tr td{
+    margin: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    background-image: url('images/card.jpg');
+    background-repeat: round;
+    background-size: 250px 180px;
+    text-indent: -9999px;
+}
+
+.activeTd{
+	text-indent: 0px;
+}
+
+table tr td:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.complete{
+	margin: 10px;
+    padding: 30px;
+    border: 1px solid black;
+    background-image: url('images/tick.png');
+    background-repeat: round;
+    background-size: 250px 180px;
+    text-indent: -9999px;
+}
+
+input[type="text"] {
+	width: 50px;
+}
+h2{
+	background-color: lightsalmon;
+    width: 400px;
+    position: absolute;
+    left: 433px;
+    top: 200px;
+    font-family: inherit;
+    color: midnightblue;
+}
